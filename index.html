@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SamiaS2 - timer bossow & metinow">
+
+    <title>SamiaS2 - timer bossow & metinow</title>
+    <link rel='shortcut icon'
+          href='/static/favicon.ico'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link href="/static/style.css" rel="stylesheet"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119018855-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119018855-1');
+    </script>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">SamiaS2 - timer bossow & metinow</a>
+</nav>
+
+<main role="main" class="container">
+    <div class="col-xl timery">
+        <label for="sel1"><p style="color:white;">Wybierz bossa/metina:</p> </label>
+        <div class="row">
+            <div class="col-xl-10 col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <select class="form-control" id="bossControl">
+					<option>test</option>
+					<option>85 - Bysior</option>
+					<option>105 - Metaro</option>
+					<option>130 - Orino</option>
+                    <option>160 - Seco</option>
+                    <option>160 - Debin</option>
+                    <option>180 - Ganato</option>
+                    <option>180 - Aearie</option>
+					<option>200 - Wepe</option>
+					<option>200 - Terun</option>
+                    <option disabled>--- METINY ---</option>
+                    <option>105 - Metin Umarlych</option>
+                    <option>130 - Metin Mrozu</option>
+                    <option>160 - Metin Piasku</option>
+                    <option>180 - Metin Drzewogrodu</option>
+					<option>200 - Metin Czarodziejstwa</option>
+                </select>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <button class="btn btn-danger float-right btnresetall" style="width:100%">Zresetuj wszystko</button>
+            </div>
+        </div>
+		<!--<div>
+		
+		</div> -->
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH1</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH2</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH3</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH4</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH5</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH6</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH7</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body boss">
+                    <h4 class="card-title"><span class="bossName"></span> - CH8</h4>
+                    <span class="timer">--:--</span> <br/><br/>
+                    <button class="btn btn-primary btnon">Przełącz</button>
+                    <button class="btn btn-warning btnreset">Zresetuj</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p style="color:white;">© Szopen v NiQ v P1xel00</p>
+        <p style="color:white;">Przerobione przez P1xel00 na Samia S2 </p>
+		<script type="text/javascript">if(typeof(window["s4uid"]) == "undefined"){ var s4uid = new Array(); var s4u_paramsarr = new Array(); var s4u_sp = new Array(); var s4uc = 0; var acts4uc = 0; var dAsd = new Array(); var temp1 = 0;}(function() {s4uid[s4uc] = "1904312";s4u_paramsarr[s4uc] = new Array();s4u_paramsarr[s4uc]["s4ustyleid"] = "17";s4u_sp[s4uc] = new Array();document.write("<span id=s4u_cp" + s4uc + "></span>");var s4u = document.createElement("script"); s4u.type = "text/javascript"; s4u.async = true;s4u.src = ("https:" == document.location.protocol ? "https://www" : "http://www") + ".stats4u.net/s4u.js";var x = document.getElementsByTagName("script")[0];x.parentNode.insertBefore(s4u, x);s4uc++;})();</script><noscript><a href="https://www.stats4u.net" target="_blank"><img src="https://www.stats4u.net/index.php?action=pic&s4uid=1904312&s4ustyleid=17&js=0" border="0" alt="Stats4U - Liczniki, statystyki na żywo i nie tylko!" style="vertical-align:bottom" title="Stats4U - Liczniki, statystyki na żywo i nie tylko!"></a></noscript>
+ <a href="https://www.Stats4U.net/live/1904312" target="_blank"><img src="https://www.Stats4U.net/img/sp/stats11.png" border="0" style="vertical-align:bottom" alt="Statystyki"></a>
+    </footer>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/static/zegarek.js"></script>
+</body>
+</html>
