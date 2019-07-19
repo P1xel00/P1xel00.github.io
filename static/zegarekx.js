@@ -34,7 +34,7 @@ function Boss(id, card) {
             } else {
                 this.time = this.startTime;
             }
-            if (this.time === 30) {
+            if (this.time === 60) {
                 this.notify();
             }
         }
@@ -58,9 +58,9 @@ function Boss(id, card) {
             let options = {
                 icon: 'static/p1xel00.png'
             };
-            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 30 sekund!", options);
+            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 60 sekund!", options);
             let audio = new Audio("static/fbi-open-up-sfx.mp3");
-			audio.volume = 0.75
+			audio.volume = 0.55
             audio.play();
         }
     }
