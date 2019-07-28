@@ -69,7 +69,7 @@ function Boss(id, card) {
 let bossList = [];
 let toggleButtons = [];
 let resetButtons = [];
-let respawnTimes = [1 * 60 + 10, 8 * 60 + 50, 14 * 60 + 50, 19 * 60 + 50, 29 * 60 + 50, 29 * 60 + 50, 49 * 60 + 50, 49 * 60 + 50, 59 * 60 + 50, 59 * 60 + 50, undefined, 12 * 60, 14 * 60 + 50, 24 * 60 + 50, 44 * 60 + 50, 54 * 60 + 50];
+let respawnTimes = [1 * 60 + 10, 8 * 60 + 40, 14 * 60 + 40, 19 * 60 + 40, 29 * 60 + 40, 29 * 60 + 40, 49 * 60 + 40, 49 * 60 + 40, 59 * 60 + 40, 59 * 60 + 40, undefined, 12 * 60, 14 * 60 + 40, 24 * 60 + 40, 44 * 60 + 40, 54 * 60 + 40];
 let bossNames = ["Test","Minotaur", "Metaro", "Orino", "Seco", "Debin", "Ganato", "Aearie","Wepe","Terun", undefined, "Metin Umarlych ", "Metin Mrozu ", "Metin Piasku", "Metin Drzewogrodu", "Metin Czarodziejstwa"];
 let allowNotifiaiotns = true;
 
