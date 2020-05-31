@@ -34,7 +34,7 @@ function Boss(id, card) {
             } else {
                 this.time = this.startTime;
             }
-            if (this.time === 60) {
+            if (this.time === 300) {
                 this.notify();
             }
         }
@@ -58,19 +58,18 @@ function Boss(id, card) {
             let options = {
                 icon: 'static/p1xel00.png'
             };
-            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 60 sekund!", options);
+            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 5 minut !", options);
             let audio = new Audio("static/fbi-open-up-sfx.mp3");
 			audio.volume = 0.55
             audio.play();
         }
     }
 }
-
 let bossList = [];
 let toggleButtons = [];
 let resetButtons = [];
-let respawnTimes = [1 * 60 + 10, 8 * 60 + 30, 14 * 60 + 30, 19 * 60 + 30, 29 * 60 + 30, 29 * 60 + 30, 49 * 60 + 30, 49 * 60 + 30, 59 * 60 + 30, 59 * 60 + 30, undefined, 12 * 60, 14 * 60 + 30, 24 * 60 + 30, 44 * 60 + 30, 54 * 60 + 30];
-let bossNames = ["Test dzwieku","1", "2", "3", "4", "5", "6", "7","8","9", undefined, "1", "2", "3", "4", "5"];
+let respawnTimes = [5 * 60 + 10, undefined, 30 * 60,30 * 60,undefined, 30 * 60, undefined, 30 * 60, 120 * 60, 360 * 60, 35 * 60, 480 * 60, 180 * 60, 180 * 60, 180 * 60, 480 * 60, 180 * 60, undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined];
+let bossNames = ["test dzwieku i powiadomienia 5 min przed", undefined,"Dolina", "Pustynia","Kraina Małp","Góra Sohan","Piekło","Świątynia hwang","Red las","Red las (LEGENDA)","Loch V2","Grota AV1 (LEGENDA)","Grota AV2 Generał Huashin(Losowy resp)","Grota AV2 Generał Yonghan","Mapa 90","Mapa 90 (LEGENDA)","Mapa 100",undefined,"Dolina Metek","Pustynia Metek","Kraina Małp Metek","Góra Sohan Metek","Piekło Metek","Świątynia hwang Metek","Red las Metek"];
 let allowNotifiaiotns = true;
 
 for (let i = 0; i < $(".boss").length; i++) {
