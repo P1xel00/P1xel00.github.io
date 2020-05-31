@@ -70,7 +70,7 @@ let bossList = [];
 let toggleButtons = [];
 let resetButtons = [];
 let respawnTimes = [1 * 60 + 10, 8 * 60 + 30, 14 * 60 + 30, 19 * 60 + 30, 29 * 60 + 30, 29 * 60 + 30, 49 * 60 + 30, 49 * 60 + 30, 59 * 60 + 30, 59 * 60 + 30, undefined, 12 * 60, 14 * 60 + 30, 24 * 60 + 30, 44 * 60 + 30, 54 * 60 + 30];
-let bossNames = ["Test","Minotaur", "Metaro", "Orino", "Seco", "Debin", "Ganato", "Aearie","Wepe","Terun", undefined, "Metin Umarlych ", "Metin Mrozu ", "Metin Piasku", "Metin Drzewogrodu", "Metin Czarodziejstwa"];
+let bossNames = ["Test dzwieku","1", "2", "3", "4", "5", "6", "7","8","9", undefined, "1", "2", "3", "4", "5"];
 let allowNotifiaiotns = true;
 
 for (let i = 0; i < $(".boss").length; i++) {

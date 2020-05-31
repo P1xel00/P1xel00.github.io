@@ -7,7 +7,13 @@
 }
 
 body {
-    background-image: url("/static/background.jpg");
+	font-family:"Lucida Sans Unicode", sans-serif;
+	background:url("/static/background.jpg") top center no-repeat;
+	background-color:#16110f;
+	min-height:100vh;
+	overflow-x:hidden;
+	font-size:13px;
+	color:#c0a46f;
 
 }
 
@@ -34,4 +40,11 @@ body {
 /* When moving the mouse over the close button */
 .closebtn:hover {
   color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
 }
