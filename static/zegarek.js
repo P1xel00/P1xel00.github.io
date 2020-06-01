@@ -68,8 +68,8 @@ function Boss(id, card) {
 let bossList = [];
 let toggleButtons = [];
 let resetButtons = [];
-let respawnTimes = [5 * 60 + 10, undefined, 30 * 60,30 * 60,undefined, 30 * 60, undefined, 30 * 60, 120 * 60, 360 * 60, 35 * 60, 480 * 60, 180 * 60, 180 * 60, 180 * 60, 480 * 60, 180 * 60, undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined];
-let bossNames = ["Test dzwieku i powiadomienia 5 min przed", undefined,"Dolina", "Pustynia","Kraina Małp","Góra Sohan","Piekło","Świątynia hwang","Red las","Red las (LEGENDA)","Loch V2","Grota AV1 (LEGENDA)","Grota AV2 Generał Huashin(Losowy resp)","Grota AV2 Generał Yonghan","Mapa 90","Mapa 90 (LEGENDA)","Mapa 100",undefined,"Dolina Metek","Pustynia Metek","Kraina Małp Metek","Góra Sohan Metek","Piekło Metek","Świątynia hwang Metek","Red las Metek"];
+let respawnTimes = [5 * 60 + 10, undefined, 30 * 60,30 * 60,undefined, 30 * 60, undefined, 30 * 60, 120 * 60, 360 * 60, 35 * 60, 480 * 60, 180 * 60, 180 * 60, 180 * 60, 480 * 60, 180 * 60, undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined];
+let bossNames = ["Test dzwieku i powiadomienia 5 min przed", undefined,"Dolina", "Pustynia","Kraina Małp","Góra Sohan","Piekło","Świątynia hwang","Red las","Red las (LEGENDA)","Loch V2","Grota AV1 (LEGENDA)","Grota AV2 Generał Huashin(Losowy resp)","Grota AV2 Generał Yonghan","Mapa 90","Mapa 90 (LEGENDA)","Mapa 100",undefined,"Dolina Metek","Pustynia Metek","Kraina Małp Metek","Góra Sohan Metek","Piekło Metek","Świątynia hwang Metek","Red las Metek","Loch V2 Metek", "Grota AV2 Metek","Mapa 90 Metek", "Mapa 100 Metek"];
 let allowNotifiaiotns = true;
 
 for (let i = 0; i < $(".boss").length; i++) {
