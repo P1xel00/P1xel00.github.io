@@ -34,7 +34,7 @@ function Boss(id, card) {
             } else {
                 this.time = this.startTime;
             }
-            if (this.time === 300) {
+            if (this.time === 120) {
                 this.notify();
             }
         }
@@ -68,8 +68,84 @@ function Boss(id, card) {
 let bossList = [];
 let toggleButtons = [];
 let resetButtons = [];
-let respawnTimes = [5 * 60 + 10, undefined, 30 * 60,30 * 60,undefined, 30 * 60, undefined, 30 * 60, 120 * 60, 360 * 60, 35 * 60, 480 * 60, 180 * 60, 180 * 60, 180 * 60, 480 * 60, 180 * 60, undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined];
-let bossNames = ["Test dzwieku i powiadomienia 5 min przed", undefined,"Dolina", "Pustynia","Kraina Małp","Góra Sohan","Piekło","Świątynia hwang","Red las","Red las (LEGENDA)","Loch V2","Grota AV1 (LEGENDA)","Grota AV2 Generał Huashin(Losowy resp)","Grota AV2 Generał Yonghan","Mapa 90","Mapa 90 (LEGENDA)","Mapa 100",undefined,"Dolina Metek","Pustynia Metek","Kraina Małp Metek","Góra Sohan Metek","Piekło Metek","Świątynia hwang Metek","Red las Metek","Loch V2 Metek", "Grota AV2 Metek","Mapa 90 Metek", "Mapa 100 Metek"];
+let respawnTimes = [
+2 * 60 + 2, //test
+undefined, // napis bossy
+30 * 60, //dolina
+30 * 60, //pustynia
+undefined, // napis małpy
+15 * 60,// skalista małpa
+20 * 60, // chodząca małpa
+30 * 60, // lord małp
+undefined, // napis kończący małpy
+30 * 60, // góra sohan
+undefined, // piekło
+30 * 60, // świątynia hwang
+120 * 60, // red las
+360 * 60, // red las legenda
+35 * 60, // loch v2
+480 * 60, // grota av1 legenda
+180 * 60, // grota av2 huashin
+180 * 60, // grota av2 yonghan
+180 * 60, // mapa 90
+480 * 60, // mapa 90 Legenda
+180 * 60,// mapa 100
+undefined,// napis metiny
+undefined,// dolina Metin
+undefined,// pustynia metin
+undefined,// napis kraina małp
+10 * 60,// łatwy metin małp
+15 * 60,// metin małp
+20 * 60,// silny metin małp
+undefined,// napis kończący małpy
+undefined,// góra sohan Metin
+undefined,// piekło Metin
+25 * 60, // świątynia Metin
+undefined, // red las Metin
+undefined, // loch v2 Metin
+undefined, // grota av2 Metin
+undefined, // mapa 90 Metin
+undefined  // mapa 100 Metin
+];
+let bossNames = [
+ "Test dzwieku i powiadomienia 2 min przed",
+ undefined,
+ "Dolina",
+ "Pustynia",
+ undefined,
+ "Skalista Małpa",
+ "Chodząca Małpa",
+ "Lord Małp",
+ undefined,
+ "Góra Sohan",
+ "Piekło",
+ "Świątynia hwang",
+ "Red las",
+ "Red las (LEGENDA)",
+ "Loch V2",
+ "Grota AV1 (LEGENDA)",
+ "Grota AV2 Generał Huashin(Losowy resp)",
+ "Grota AV2 Generał Yonghan",
+ "Mapa 90",
+ "Mapa 90 (LEGENDA)",
+ "Mapa 100",
+ undefined, // napis metiny
+ "Dolina Metin",
+ "Pustynia Metin",
+ undefined, // kraina małp napis
+ "Łatwy Metin Małp",
+ "Metin Małp",
+ "Silny Metin Małp",
+ undefined, // kraina małp napis
+ "Góra Sohan Metin",
+ "Piekło Metin",
+ "Świątynia hwang Metin",
+ "Red las Metin",
+ "Loch V2 Metin",
+ "Grota AV2 Metin",
+ "Mapa 90 Metin",
+ "Mapa 100 Metin"
+ ];
 let allowNotifiaiotns = true;
 
 for (let i = 0; i < $(".boss").length; i++) {
