@@ -58,7 +58,7 @@ function Boss(id, card) {
             let options = {
                 icon: 'static/p1xel00.png'
             };
-            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 5 minut !", options);
+            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 2 minuty !", options);
             let audio = new Audio("static/fbi-open-up-sfx.mp3");
 			audio.volume = 0.55
             audio.play();
