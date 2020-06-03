@@ -113,7 +113,7 @@ undefined, // mapa 90 Metin
 undefined  // mapa 100 Metin
 ];
 let bossNames = [
- "Test dzwieku i powiadomienia",
+ "Test dźwięku i powiadomienia",
  undefined,
  "Best Kapitan",
  "Dolina",
@@ -125,7 +125,7 @@ let bossNames = [
  undefined,
  "Góra Sohan",
  "Piekło",
- "Świątynia hwang",
+ "Świątynia Hwang",
  "Red las",
  "Red las (LEGENDA)",
  "Loch V2",
@@ -136,7 +136,7 @@ let bossNames = [
  "Mapa 90 (LEGENDA)",
  "Mapa 100",
  undefined, // napis metiny
- "Dolina Metin",
+ "Dolina Orków Metin",
  "Pustynia Metin",
  undefined, // kraina małp napis
  "Łatwy Metin Małp",
@@ -145,7 +145,7 @@ let bossNames = [
  undefined, // kraina małp napis
  "Góra Sohan Metin",
  "Piekło Metin",
- "Świątynia hwang Metin",
+ "Świątynia Hwang Metin",
  "Red las Metin",
  "Loch V2 Metin",
  "Grota AV2 Metin",
