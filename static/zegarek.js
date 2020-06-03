@@ -83,14 +83,14 @@ undefined, // napis małpy
 20 * 60, // chodząca małpa
 30 * 60, // lord małp
 undefined, // napis kończący małpy
-30 * 60, // góra sohan
+35 * 60, // góra sohan
 30 * 60, // piekło
-30 * 60, // świątynia hwang
+35 * 60, // świątynia hwang
 120 * 60, // red las
 360 * 60, // red las legenda
 35 * 60, // loch v2
 480 * 60, // grota av1 legenda
-180 * 60, // grota av2 huashin
+120 * 60, // grota av2 huashin
 180 * 60, // grota av2 yonghan
 180 * 60, // mapa 90
 480 * 60, // mapa 90 Legenda
