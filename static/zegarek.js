@@ -34,7 +34,10 @@ function Boss(id, card) {
             } else {
                 this.time = this.startTime;
             }
-            if (this.time === 120) {
+            //if (this.time === 120) {
+            //    this.notify();
+            //}
+			if (this.time == document.getElementById("czas").value) {
                 this.notify();
             }
         }
@@ -58,9 +61,10 @@ function Boss(id, card) {
             let options = {
                 icon: 'static/p1xel00.png'
             };
-            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za 2 minuty !", options);
+            let notification = new Notification(this.name + " CH" + (this.ID + 1) + " za " + this.time + " sekund!", options);
             let audio = new Audio("static/fbi-open-up-sfx.mp3");
-			audio.volume = 0.55
+			//audio.volume = 0.55
+			audio.volume = document.getElementById("slider").value
             audio.play();
         }
     }
@@ -109,7 +113,7 @@ undefined, // mapa 90 Metin
 undefined  // mapa 100 Metin
 ];
 let bossNames = [
- "Test dzwieku i powiadomienia 2 min przed",
+ "Test dzwieku i powiadomienia",
  undefined,
  "Best Kapitan",
  "Dolina",
