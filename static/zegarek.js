@@ -84,7 +84,7 @@ undefined, // napis małpy
 30 * 60, // lord małp
 undefined, // napis kończący małpy
 35 * 60, // góra sohan
-30 * 60, // piekło
+35 * 60, // piekło
 35 * 60, // świątynia hwang
 120 * 60, // red las
 360 * 60, // red las legenda
