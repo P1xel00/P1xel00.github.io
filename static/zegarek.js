@@ -71,6 +71,7 @@ let resetButtons = [];
 let respawnTimes = [
 2 * 60 + 2, //test
 undefined, // napis bossy
+undefined, // best kapitan
 30 * 60, //dolina
 30 * 60, //pustynia
 undefined, // napis małpy
@@ -79,7 +80,7 @@ undefined, // napis małpy
 30 * 60, // lord małp
 undefined, // napis kończący małpy
 30 * 60, // góra sohan
-undefined, // piekło
+30 * 60, // piekło
 30 * 60, // świątynia hwang
 120 * 60, // red las
 360 * 60, // red las legenda
@@ -92,14 +93,14 @@ undefined, // piekło
 180 * 60,// mapa 100
 undefined,// napis metiny
 undefined,// dolina Metin
-undefined,// pustynia metin
+15 * 60,// pustynia metin
 undefined,// napis kraina małp
 10 * 60,// łatwy metin małp
 15 * 60,// metin małp
 20 * 60,// silny metin małp
 undefined,// napis kończący małpy
 undefined,// góra sohan Metin
-undefined,// piekło Metin
+35 * 60,// piekło Metin
 25 * 60, // świątynia Metin
 undefined, // red las Metin
 undefined, // loch v2 Metin
@@ -110,6 +111,7 @@ undefined  // mapa 100 Metin
 let bossNames = [
  "Test dzwieku i powiadomienia 2 min przed",
  undefined,
+ "Best Kapitan",
  "Dolina",
  "Pustynia",
  undefined,
