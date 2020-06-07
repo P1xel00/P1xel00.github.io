@@ -75,14 +75,12 @@ let resetButtons = [];
 let respawnTimes = [
 2 * 60 + 2, //test
 undefined, // napis bossy
-undefined, // best kapitan
+20 * 60, // best kapitan
 30 * 60, //dolina
 30 * 60, //pustynia
-undefined, // napis małpy
 15 * 60,// skalista małpa
 20 * 60, // chodząca małpa
 30 * 60, // lord małp
-undefined, // napis kończący małpy
 35 * 60, // góra sohan
 35 * 60, // piekło
 35 * 60, // świątynia hwang
@@ -96,60 +94,62 @@ undefined, // napis kończący małpy
 480 * 60, // mapa 90 Legenda
 180 * 60,// mapa 100
 undefined,// napis metiny
-undefined,// dolina Metin
+15 * 60,// dolina Metin
 15 * 60,// pustynia metin
-undefined,// napis kraina małp
 10 * 60,// łatwy metin małp
 15 * 60,// metin małp
 20 * 60,// silny metin małp
-undefined,// napis kończący małpy
-undefined,// góra sohan Metin
-35 * 60,// piekło Metin
+20 * 60,// Metin twardości góra sohan 
+25 * 60,// Metin Śmierci góra sohan 
+25 * 60,// piekło Metin
 25 * 60, // świątynia Metin
-undefined, // red las Metin
-undefined, // loch v2 Metin
-undefined, // grota av2 Metin
-undefined, // mapa 90 Metin
-undefined  // mapa 100 Metin
+30 * 60, // Pung-Ma red las 
+30 * 60, // Ma-An red las Metin
+35 * 60, // Tu-Young red las Metin
+35 * 60, // Jeon-Un red las Metin
+20 * 60, // loch v2 Metin
+25 * 60, // grota av2 Metin
+35 * 60, // mapa 90 Metin
+35 * 60  // mapa 100 Metin
 ];
 let bossNames = [
  "Test dźwięku i powiadomienia",
  undefined,
  "Best Kapitan",
- "Dolina",
- "Pustynia",
- undefined,
+ "Wódz Orków",
+ "Królowa Pustyni",
  "Skalista Małpa",
  "Chodząca Małpa",
  "Lord Małp",
- undefined,
- "Góra Sohan",
- "Piekło",
- "Świątynia Hwang",
- "Red las",
+ "Dziewięć Ogonów",
+ "Ognisty Król",
+ "Reinkar, Zjawa",
+ "Olbrzymi Duch Drzewa",
  "Red las (LEGENDA)",
- "Loch V2",
+ "Król Pająków",
  "Grota AV1 (LEGENDA)",
- "Grota AV2 Generał Huashin(Losowy resp)",
- "Grota AV2 Generał Yonghan",
- "Mapa 90",
+ "Generał Huashin(Losowy resp)",
+ "Generał Yonghan",
+ "Polifem, Arges",
  "Mapa 90 (LEGENDA)",
- "Mapa 100",
+ "Bagjanamu,Władca entai",
  undefined, // napis metiny
- "Dolina Orków Metin",
- "Pustynia Metin",
- undefined, // kraina małp napis
+ "Metin Duszy",
+ "Metin Cienia",
  "Łatwy Metin Małp",
  "Metin Małp",
  "Silny Metin Małp",
- undefined, // kraina małp napis
- "Góra Sohan Metin",
- "Piekło Metin",
- "Świątynia Hwang Metin",
- "Red las Metin",
- "Loch V2 Metin",
- "Grota AV2 Metin",
- "Mapa 90 Metin",
+ "Metin Twardości",
+ "Metin Śmierci",
+ "Metin Morderstwa",
+ "Metin Diabła,Upadku",
+ "Metin Pung-Ma",
+ "Metin Ma-An",
+ "Metin Tu-Young",
+ "Metin Jeon-Un",
+ "Pajęcze Jajo",
+ "Metin Groty",
+ "Metin Żaru,Próżności",
  "Mapa 100 Metin"
  ];
 let allowNotifiaiotns = true;
