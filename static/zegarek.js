@@ -103,10 +103,10 @@ undefined,// napis metiny
 25 * 60,// Metin Śmierci góra sohan 
 25 * 60,// piekło Metin
 25 * 60, // świątynia Metin
-30 * 60, // Pung-Ma red las 
-30 * 60, // Ma-An red las Metin
-35 * 60, // Tu-Young red las Metin
-35 * 60, // Jeon-Un red las Metin
+25 * 60, // Pung-Ma red las 
+25 * 60, // Ma-An red las Metin
+30 * 60, // Tu-Young red las Metin
+30 * 60, // Jeon-Un red las Metin
 20 * 60, // loch v2 Metin
 25 * 60, // grota av2 Metin
 35 * 60, // mapa 90 Metin
