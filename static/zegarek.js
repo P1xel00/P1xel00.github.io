@@ -108,7 +108,7 @@ undefined,// napis metiny
 30 * 60, // Tu-Young red las Metin
 30 * 60, // Jeon-Un red las Metin
 20 * 60, // loch v2 Metin
-35 * 60, // grota av2 Metin
+25 * 60, // grota av2 Metin
 35 * 60, // mapa 90 Metin
 35 * 60  // mapa 100 Metin
 ];
